@@ -62,7 +62,7 @@ while($temp>0){
             while($row = $result->fetch_assoc()){
                     $i=$row['qid'];
                     echo "<tr id='a'><td>$no</td><td>$row[qname]</td>";
-                    echo "<td><a href ='forum.php?qid=$i' >$row[question]; </a></td></tr>";
+                    echo "<td><a href ='forum.php?qid=$i' >$row[question] </a></td></tr>";
                     $no++;
                 }
 echo "</table></div><br>";
